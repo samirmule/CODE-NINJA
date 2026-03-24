@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HungerBridge – Live Tracking</title>
+<link rel="stylesheet" href="tracking.css">
+</head>
+
+<body>
+
+<div class="top-bar">
+    <h1>🚚 Live Delivery Tracking</h1>
+</div>
+
+<div class="tracking-container">
+
+    <!-- Left: Status Tracker -->
+    <div class="status-card">
+        <h2>Delivery Progress</h2>
+
+        <div class="status-step completed">
+            <div class="circle tick">✔</div>
+            <div>
+                <h4>Pickup Confirmed</h4>
+                <p>Donor has handed over the food</p>
+            </div>
+        </div>
+
+        <div class="status-step completed">
+            <div class="circle tick">✔</div>
+            <div>
+                <h4>Volunteer Assigned</h4>
+                <p>Volunteer is on the way</p>
+            </div>
+        </div>
+
+        <div class="status-step active">
+            <div class="circle active-circle"></div>
+            <div>
+                <h4>En Route</h4>
+                <p>Volunteer is heading to the NGO</p>
+            </div>
+        </div>
+
+        <div class="status-step upcoming">
+            <div class="circle upcoming-circle"></div>
+            <div>
+                <h4>Delivered</h4>
+                <p>Food successfully dropped</p>
+            </div>
+        </div>
+
+        <button class="back-btn" onclick="history.back()">← Back to Dashboard</button>
+    </div>
+
+    <!-- Right: Map -->
+    <div class="map-card">
+        <h2>Live Location</h2>
+        <iframe
+            width="100%"
+            height="100%"
+            style="border:0; border-radius: 15px;"
+            loading="lazy"
+            src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyExampleKey
+                &origin=Wardha
+                &destination=Nagpur
+                &zoom=10">
+        </iframe>
+    </div>
+
+</div>
+
+</body>
+</html>
