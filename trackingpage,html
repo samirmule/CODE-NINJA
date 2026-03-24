@@ -49,8 +49,11 @@
                 <p>Food successfully dropped</p>
             </div>
         </div>
+        <a href="dashboard.html">
 
         <button class="back-btn" onclick="history.back()">← Back to Dashboard</button>
+
+        </a>
     </div>
 
     <!-- Right: Map -->
