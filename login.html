@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -52,7 +52,7 @@ function loginUser(event) {
     // Dummy validation (frontend only)
     if(username !== "" && password !== "") {
         // redirect to dashboard
-        window.location.href = "dashboard.html";
+        window.location.href = "ngo-dashboard.html";
     } else {
         alert("Please fill all fields");
     }
@@ -60,6 +60,11 @@ function loginUser(event) {
 
 function goToRegister() {
     window.location.href = "register.html";
+
+}
+
+function todashboard(){
+    window.location.href = "ngo-dashboard.html";
 }
 </script>
 
