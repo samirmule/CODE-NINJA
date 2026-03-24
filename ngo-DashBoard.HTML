@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HungerBridge Dashboard</title>
+<link rel="stylesheet" href="ngo-dashboard.css">
+</head>
+
+<body>
+
+<div class="main-container">
+
+    <!-- Donor Panel -->
+    <div class="card">
+        <div class="header">🍽 Food Donation</div>
+
+        <button class="green-btn">Add Food</button>
+
+        <input type="text" id="foodName" placeholder="Food name">
+        <input type="number" id="quantity" placeholder="E.g., 50 meals">
+        <input type="text" id="location" placeholder="Location">
+
+        <button class="orange-btn" onclick="postFood()">Post Food</button>
+    </div>
+
+    <!-- Listings Panel -->
+    <div class="card">
+        <div class="header">📋 Available Food</div>
+
+        <div id="foodList"></div>
+    </div>
+
+    <!-- Delivery Panel -->
+    <div class="card">
+        <div class="header">🚚 Delivery Dashboard</div>
+
+        <div id="deliveryList"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
