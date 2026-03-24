@@ -91,7 +91,8 @@ REGISTRATION PAGE
 
 NGO DASHBOARD
 
-![WhatsApp Image 2026-03-24 at 1 32 12 PM](https://github.com/user-attachments/assets/a3149646-9dac-4740-9a86-1744b5316819)
+<img width="1600" height="757" alt="image" src="https://github.com/user-attachments/assets/78b00f12-68b0-43e1-824d-79a5f29b0a44" />
+
 
 
 TRACKING PAGE 
